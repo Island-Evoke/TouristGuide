@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IContactService,ContactService>();
 builder.Services.AddScoped<IContentRepository, ContactRepository>();
 builder.Services.AddScoped<IGalleryService, GalleryService>();
+builder.Services.AddScoped<IGalleryRepository, GalleryRepository>();
 //builder.Services.AddScoped<IContentRepository, ContactRepository>();
 var app = builder.Build();
 

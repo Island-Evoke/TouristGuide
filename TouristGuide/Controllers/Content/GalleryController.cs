@@ -26,5 +26,19 @@ namespace TouristGuide.API.Controllers.Content
             var response = await _galleryService.UploadGallery( Title,  files,  Description);
             return Ok(new { result = response });
         }
+        [HttpGet]
+        [Route("GetGalleryFilesByFolderName")]
+        public async Task<IActionResult> GetGalleryFilesByFolderName(string Title)
+        {
+            var response = await _galleryService.GetGalleryFilesByFolderName(Title);
+            return Ok(new { result = response });
+        }
+        [HttpGet]
+        [Route("GetAllGalleryFiles")]
+        public async Task<IActionResult> GetAllGalleryFiles()
+        {
+            var response = await _galleryService.GetAllGalleryFiles();
+            return Ok(new { result = response });
+        }
     }
 }

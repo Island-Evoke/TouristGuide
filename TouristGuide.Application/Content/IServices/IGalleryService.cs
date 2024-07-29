@@ -11,5 +11,7 @@ namespace TouristGuide.Application.Content.IServices
     public interface IGalleryService
     {
         Task<CommonResponseModel> UploadGallery(string Title, List<IFormFile> files, string Description);
+        Task<CommonResponseModel> GetGalleryFilesByFolderName(string Title);
+        Task<CommonResponseModel> GetAllGalleryFiles();
     }
 }
