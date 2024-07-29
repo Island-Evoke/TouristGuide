@@ -6,7 +6,7 @@ export default function Footer1() {
                 <div className="container">
                     <div className="footer-top">
                         <div className="row align-items-center">
-                            <div className="col-md-4 text-center text-md-start"><Link className="d-inline-block" href="/"><img alt="Travila" src="/assets/imgs/template/logo-footer.svg" /></Link></div>
+                            <div className="col-md-4 text-center text-md-start"><Link className="d-inline-block" href="/"><img alt="Travila" src="/assets/imgs/template/logo-footer.svg" style={{width:"140px", height:"120px"}}/></Link></div>
                             <div className="col-md-8 text-center text-md-end">
                                 <div className="d-flex align-items-center justify-content-center justify-content-md-end"><Link className="text-md-medium need-help" href="/tel:1-800-222-8888">Need help? Call us</Link><Link className="heading-6 phone-support" href="/tel:1-800-222-8888">1-800-222-8888</Link></div>
                             </div>
@@ -20,7 +20,7 @@ export default function Footer1() {
                                     <p className="text-md neutral-400 icon-address">4517 Washington Ave. Manchester, Kentucky 39495
                                     </p>
                                     <p className="text-md neutral-400 icon-worktime">Hours: 8:00 - 17:00, Mon - Sat</p>
-                                    <p className="text-md neutral-400 icon-email">support@travila.com</p>
+                                    <p className="text-md neutral-400 icon-email">support@cylonianinn.com</p>
                                 </div>
                                 <p className="text-lg-bold title-follow neutral-0">Follow us</p>
                                 <div className="box-socials-footer"><Link className="icon-socials icon-instagram" href="#">

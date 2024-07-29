@@ -13,7 +13,7 @@ export default function Footer4() {
                                     <p className="text-md neutral-400 icon-address">4517 Washington Ave. Manchester, Kentucky 39495
                                     </p>
                                     <p className="text-md neutral-400 icon-worktime">Hours: 8:00 - 17:00, Mon - Sat</p>
-                                    <p className="text-md neutral-400 icon-email">support@travila.com</p>
+                                    <p className="text-md neutral-400 icon-email">support@cylonianinn.com</p>
                                 </div>
                             </div>
                         </div>
