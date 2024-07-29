@@ -111,6 +111,7 @@ namespace TouristGuide.Application.Content.Services
                     allFiles.AddRange(files);
                     string Title = directory;
                     string Description = "";
+
                     galleryList.Add(new GalleryModel() { Description=data.Description,Title=data.Title,Files=allFiles});
                    
 

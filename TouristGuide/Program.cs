@@ -1,3 +1,4 @@
+using Microsoft.Extensions.FileProviders;
 using TouristGuide.Application.Content.IServices;
 using TouristGuide.Application.Content.Services;
 using TouristGuide.Domain.Content.IRepositories;
@@ -14,6 +15,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IContactService,ContactService>();
 builder.Services.AddScoped<IContentRepository, ContactRepository>();
+builder.Services.AddScoped<IGalleryService, GalleryService>();
+builder.Services.AddScoped<IGalleryRepository, GalleryRepository>();
 
 // Configure CORS policy
 builder.Services.AddCors(options =>
@@ -26,8 +29,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddScoped<IGalleryService, GalleryService>();
-builder.Services.AddScoped<IGalleryRepository, GalleryRepository>();
+
 //builder.Services.AddScoped<IContentRepository, ContactRepository>();
 var app = builder.Build();
 
@@ -37,7 +39,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "UploadedImages")),
+    RequestPath = "/UploadedImages"
+});
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
