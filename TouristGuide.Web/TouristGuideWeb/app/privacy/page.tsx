@@ -62,7 +62,7 @@ export default function Privacy() {
                                                 </svg></Link></div>
                                     </div>
                                     <p className="text-lg-medium neutral-500">Best regards, </p>
-                                    <p className="text-lg-bold neutral-1000">Travila Team</p>
+                                    <p className="text-lg-bold neutral-1000">Cylonian inn Team</p>
                                 </div>
                             </div>
                         </div>

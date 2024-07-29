@@ -5,7 +5,7 @@ export default function WhyBookTravila2() {
             <section className="section-box box-why-book-travila-2 background-body">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 mb-30"><span className="btn btn-brand-secondary wow fadeInUp"> <img className="mr-10" src="/assets/imgs/page/homepage4/earth.svg" alt="Travile" />Why book at Travila ?</span>
+                        <div className="col-lg-6 mb-30"><span className="btn btn-brand-secondary wow fadeInUp"> <img className="mr-10" src="/assets/imgs/page/homepage4/earth.svg" alt="Travile" />Why book at Cylonian inn ?</span>
                             <h2 className="mt-15 mb-15 neutral-1000 wow fadeInUp">Embracing Adventure Since 2003</h2>
                             <p className="text-xl-medium neutral-1000 mb-30 wow fadeInUp">Choose one style or create a package,
                                  your passports with adventures together.</p>

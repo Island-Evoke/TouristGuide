@@ -53,7 +53,7 @@ export default function TourList2() {
 					<section className="box-section block-banner-tourlist" style={{ backgroundImage: 'url(assets/imgs/page/tour/banner4.png)' }}>
 						<div className="container">
 							<div className="text-center">
-								<h3>Journey with Travila - Begin Your Story!</h3>
+								<h3>Journey with Cylonian inn - Begin Your Story!</h3>
 								<h6 className="heading-6-medium">Easily search for top tours offered by our professional network</h6>
 							</div>
 							<div className="box-search-advance box-search-advance-3 background-card wow fadeInUp">

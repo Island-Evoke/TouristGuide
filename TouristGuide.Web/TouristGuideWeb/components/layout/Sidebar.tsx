@@ -10,7 +10,7 @@ export default function Sidebar({ isSidebar, handleSidebar, }: any) {
 			<div className={`sidebar-canvas-wrapper perfect-scrollbar button-bg-2 ${isSidebar ? "sidebar-canvas-visible" : ""}`}>
 				<PerfectScrollbar className="sidebar-canvas-container">
 					<div className="sidebar-canvas-head">
-						<div className="sidebar-canvas-logo"> <Link className="d-flex" href="/"><img className="light-mode" alt="Travila" src="/assets/imgs/template/logo.svg" /><img className="dark-mode" alt="Travila" src="/assets/imgs/template/logo-w.svg" /></Link></div>
+						<div className="sidebar-canvas-logo"> <Link className="d-flex" href="/"><img className="light-mode" alt="Travila" src="/assets/imgs/template/logo.svg" style={{width:"110px", height:"100px"}}/><img className="dark-mode" alt="Travila" src="/assets/imgs/template/logo-w.svg" /></Link></div>
 						<div className="sidebar-canvas-lang">
 							<LanguageDropdown />
 							<CurrencyDropdown />
