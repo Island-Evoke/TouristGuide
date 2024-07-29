@@ -20,12 +20,12 @@ export default function Footer5() {
 					</div>
 					<div className="row">
 						<div className="col-md-3 col-sm-12 footer-1">
-							<div className="mt-20 mb-20"><a className="d-inline-block mb-20" href="index.html"><img alt="Travila" src="assets/imgs/template/logo-footer.svg" /></a>
+							<div className="mt-20 mb-20"><a className="d-inline-block mb-20" href="index.html"><img alt="Travila" src="assets/imgs/template/logo-footer.svg"/></a>
 								<div className="box-info-contact mt-0">
 									<p className="text-md neutral-400 icon-address">4517 Washington Ave. Manchester, Kentucky 39495
 									</p>
 									<p className="text-md neutral-400 icon-worktime">Hours: 8:00 - 17:00, Mon - Sat</p>
-									<p className="text-md neutral-400 icon-email">support@travila.com</p>
+									<p className="text-md neutral-400 icon-email">support@cylonianinn.com</p>
 								</div>
 								<div className="box-need-help">
 									<p className="need-help text-md-medium mb-5">Need help? Call us</p><br /><a className="heading-6 phone-support" href="tel:1-800-222-8888">1-800-222-8888</a>

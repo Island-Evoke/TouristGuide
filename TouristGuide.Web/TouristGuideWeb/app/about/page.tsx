@@ -51,7 +51,7 @@ export default function About() {
 					<section className="section-box box-why-book-travila-5 background-5">
 						<div className="container">
 							<div className="row align-items-center">
-								<div className="col-lg-6 mb-30"><span className="btn btn-brand-secondary background-0 wow fadeInUp"> <img className="mr-10" src="/assets/imgs/page/homepage4/earth.svg" alt="Travile" />Why book at Travila ?</span>
+								<div className="col-lg-6 mb-30"><span className="btn btn-brand-secondary background-0 wow fadeInUp"> <img className="mr-10" src="/assets/imgs/page/homepage4/earth.svg" alt="Travile" />Why book at Cylonian inn ?</span>
 									<h2 className="mt-15 mb-15 neutral-1000 wow fadeInUp">Embracing Adventure Since 2003</h2>
 									<p className="text-xl-medium neutral-1000 mb-30 wow fadeInUp">Choose one style or create a package,  your passports with adventures together.</p>
 									<div className="list-numbers wow fadeInUp">
@@ -203,7 +203,7 @@ export default function About() {
 											<div className="card-info">
 												<h6 className="neutral-1000">Cody Fisher</h6>
 												<p className="text-sm-medium neutral-500">Founder and Principal Broker</p>
-												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Travila team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
+												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Cylonian inn team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
 												<div className="card-team-bottom">
 													<div className="card-socials"> <Link className="link-social background-100" href="#">
 														<svg width={15} height={15} viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
@@ -232,7 +232,7 @@ export default function About() {
 											<div className="card-info">
 												<h6 className="neutral-1000">Darrell Steward</h6>
 												<p className="text-sm-medium neutral-500">Founder and Principal Broker</p>
-												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Travila team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
+												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Cylonian inn team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
 												<div className="card-team-bottom">
 													<div className="card-socials"> <Link className="link-social background-100" href="#">
 														<svg width={15} height={15} viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
@@ -261,7 +261,7 @@ export default function About() {
 											<div className="card-info">
 												<h6 className="neutral-1000">Ronald Richards</h6>
 												<p className="text-sm-medium neutral-500">Founder and Principal Broker</p>
-												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Travila team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
+												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Cylonian inn team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
 												<div className="card-team-bottom">
 													<div className="card-socials"> <Link className="link-social background-100" href="#">
 														<svg width={15} height={15} viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
@@ -319,7 +319,7 @@ export default function About() {
 											<div className="card-info">
 												<h6 className="neutral-1000">Jenny Wilson</h6>
 												<p className="text-sm-medium neutral-500">Founder and Principal Broker</p>
-												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Travila team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
+												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Cylonian inn team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
 												<div className="card-team-bottom">
 													<div className="card-socials"> <Link className="link-social background-100" href="#">
 														<svg width={15} height={15} viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
@@ -348,7 +348,7 @@ export default function About() {
 											<div className="card-info">
 												<h6 className="neutral-1000">Floyd Miles</h6>
 												<p className="text-sm-medium neutral-500">Founder and Principal Broker</p>
-												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Travila team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
+												<p className="text-xs-medium neutral-1000">With over 15 years of real estate experience, John leads the Cylonian inn team with passion and expertise. His commitment to client satisfaction and market knowledge sets the standard for our exceptional service.</p>
 												<div className="card-team-bottom">
 													<div className="card-socials"> <Link className="link-social background-100" href="#">
 														<svg width={15} height={15} viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
